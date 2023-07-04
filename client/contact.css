@@ -1,0 +1,130 @@
+.container {
+    max-width: 800px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ece4ec;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    border:2px solid rgb(61, 11, 61);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info p {
+    margin-bottom: 10px;
+  }
+  
+  .social-icons {
+    margin-top: 30px;
+  }
+  
+  .social-icons a {
+    color: #333;
+    font-size: 30px;
+    margin: 0 10px;
+    text-decoration: none;
+    
+  }
+  
+  .social-icons a:hover {
+    color: #555;
+  }
+  
+  .fa-envelope {
+    margin-right: 5px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  header {
+    background-color: rgb(15, 14, 14);
+    padding: 7px;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bold ;
+    font-size: 18px;
+    background-color: rgb(75, 51, 78);
+    border:2px solid rgb(72, 35, 72);
+    box-shadow: 5px 5px 10px rgb(165, 114, 165);
+    
+  }
+  
+  nav ul li a:hover {
+    background-color: rgb(214, 172, 172);
+    font-size:20px ;
+    border-radius: 10px;
+  }
+  
+  h1{
+    text-shadow: 2px 10px 10px #c63333;
+    background: linear-gradient(45deg, rgb(219, 188, 188), rgb(142, 111, 237));
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+    
+    
+  }
+  h3{
+    font-size: 30px;
+    background: linear-gradient(45deg, rgb(237, 25, 25), rgb(136, 47, 9));
+    text-shadow: 1px 2px 3px rgb(46, 26, 11);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-decoration: underline;
+     
+      
+  }
+  .menu-logo {
+    width: 170px;
+    height: 150px;
+    margin-right: 10px;
+    border-radius: 20px;
+    box-shadow: 7px 15px 15px rgb(165, 114, 165);
+  }
+  .menu {
+    display: inline-block;
+    align-items: center;
+    
+    padding: 20px;
+  }
+  
+ 
+  
+  .menu-list {
+    list-style: none;
+    
+    
+  }
+  

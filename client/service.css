@@ -1,0 +1,189 @@
+.container {
+  width: 100%; /* Largeur fixe en pixels */
+  
+  
+ 
+  padding-left: 50px;
+  font-family: 'Roboto', sans-serif;
+  margin: right -30px;
+  
+}
+
+
+
+.product {
+  display: inline-block;
+  width: 250px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border:2px solid rgb(60, 3, 31);
+  box-shadow: 2px 2px 10Px #44153c;
+}
+
+.product-info {
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px  #26201e;
+  text-decoration: wavy;
+  
+}
+
+.regular-price {
+  margin-bottom: 5px;
+  text-decoration: line-through;
+  color: #777;
+}
+
+.sale-price {
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #f00;
+}
+
+.description {
+  color: rgb(56, 52, 52);
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(239, 234, 239);
+ 
+  
+}
+
+header {
+  background-color: rgb(28, 22, 22);
+  
+  height: 180px;
+  
+  color: #fff;
+  
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-radius: 5px;
+  font-weight: bold ;
+  font-size: 18px;
+  background-color: rgb(75, 51, 78);
+  border:2px solid rgb(72, 35, 72);
+  box-shadow: 5px 5px 10px rgb(165, 114, 165);
+  
+}
+
+nav ul li a:hover {
+  background-color: rgb(214, 172, 172);
+  font-size:20px ;
+  border-radius: 10px;
+}
+  #option  {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 30px;
+    border-radius: 5px;
+    font-weight: bold ;
+    font-size: 18px;
+    background-color: rgb(75, 51, 78);
+    border:2px solid rgb(72, 35, 72);
+    box-shadow: 5px 5px 10px rgb(165, 114, 165);
+  
+}
+
+h1{
+  text-shadow: 2px 10px 10px #bd4ca9;
+  background: linear-gradient(45deg, rgb(219, 188, 188), rgb(52, 23, 139));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+  
+  
+}
+.menu-logo {
+  width: 170px;
+  height: 150px;
+  margin-right: 10px;
+  border-radius: 20px;
+  box-shadow: 7px 15px 15px rgb(165, 114, 165);
+}
+.menu {
+  display:inline-block;
+  align-items: center;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  
+  
+}
+
+
+
+.menu-list {
+  list-style: none;
+  
+  
+}
+h3{
+  font-size: 35px;
+  background: linear-gradient(45deg, rgb(157, 112, 143), rgb(233, 120, 120));
+  text-shadow: 1px 2px 3px rgb(37, 30, 25);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-decoration: underline;
+   padding-left: 500px;
+   font-weight: bold;
+  letter-spacing: 2px;
+    
+}
+button  {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  background-color: #c660ab;
+  color: #fff;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 500px;
+  width: 300px;
+  margin-right: 500px;
+  
+}
+ button a { 
+  text-decoration: none;
+ color: azure;
+ }
+
+button :hover {
+  font-size: 20px;
+  color: #44153c;
+}
